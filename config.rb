@@ -112,7 +112,7 @@ page "/feed.xml", layout: false
 activate :deploy do |deploy|
   deploy.method = :git
   # deploy.remote = "origin" # uses 'origin' by default
-  # deploy.branch = Mampi
+  # deploy.branch = Master 
 end
 
 set :css_dir,    'stylesheets'
